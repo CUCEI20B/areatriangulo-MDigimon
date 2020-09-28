@@ -3,7 +3,11 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    unsigned int a, h;
+    cin >> a;
+    cin >> h;
+    
+    cout<< (a*h)/2<< endl;
 
     return 0;
 }
